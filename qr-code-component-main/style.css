@@ -1,0 +1,78 @@
+/* Styling the background */
+body{
+    width:1440px;
+    height: 800px;
+    background-color: #D5E1EF ;
+}
+
+/*Styling the background of the section */
+.main{
+    position: absolute;
+    top:152px;
+    left:560px;
+    background-color: hsl(0, 0%, 100%);
+    height:497px;
+    width: 320px ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: hsla(0, 0%, 0%, 0.25);
+}
+
+/*Styling the QR Code square*/
+.qrCode{
+    position: absolute;
+    top:16px;
+    left:16px;
+    height:288px;
+    width:288px;
+    background-color: #2C7DFA;
+    border-radius: 15px;
+}
+
+.qrCode img{
+    height: 288px;
+    width:288px;
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*Styling the text box */
+.text{
+    position: absolute;
+    top:328px;
+    left: 16px;
+    height: 129px;
+    width:288px;
+}
+
+/*Styling the text */
+h1, p{
+    font-family: 'Outfit';
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+h1{
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+}
+
+/*Styling for the mobile*/
+@media (max-width:375px) {
+    body{
+        height: 667px;
+        width:375px;
+        background-color: #D5E1EF;
+    }
+}
